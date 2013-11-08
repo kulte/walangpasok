@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tweet_id: 1
+  text: MyText
+  levels: MyString
+  suspended_until: 2013-11-07 21:18:40
+  location: MyString
+
+two:
+  tweet_id: 1
+  text: MyText
+  levels: MyString
+  suspended_until: 2013-11-07 21:18:40
+  location: MyString

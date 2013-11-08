@@ -1,0 +1,23 @@
+<table border="1" cellpadding="3">
+  <tbody><tr>
+    <th>Location</th>
+    <th>Levels</th>
+    <th>Suspended Until</th>
+    <th>Tweet</th>
+    <th>Twitter Link</th>
+    <th>HTML Snippet (Copy & Paste)</th>
+  </tr>
+
+  <% @cancellations.each do |c| %>
+
+    <tr>
+      <td><%= c.location %></td>
+      <td><%= c.levels %></td>
+      <td><%= c.suspended_until.strftime('%B %d') %></td>
+      <td><%= c.text %></td>
+      <td><%= c.url %></td>
+      <td><%= c.html_snippet %></td>
+    </tr>
+
+  <% end %>
+</tbody></table>
